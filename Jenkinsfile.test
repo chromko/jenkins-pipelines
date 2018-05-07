@@ -1,0 +1,10 @@
+pipeline {
+    agent any
+    stages {
+        stage('deploy test') {
+            steps {
+                sh 'echo deploy test'
+            }
+        }
+    }
+}
